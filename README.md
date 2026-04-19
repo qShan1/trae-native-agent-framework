@@ -1,6 +1,6 @@
 # TraeCN-Framework
 
-专为 Trae IDE 打造的 AI 编程助手框架。基于 Read/Write 工具的结构化记忆 + Skill 技能调度。
+> 专为 Trae IDE 打造的 AI 编程助手框架。基于 Read/Write 工具的结构化记忆 + Skill 技能调度。
 
 ## 核心理念
 
@@ -33,8 +33,9 @@
 │       ├── session-handoff/ # 会话交接
 │       ├── humanizer-zh/   # 去除AI写作痕迹
 │       ├── 问题解决/       # 问题分析与修复
-│       └── 项目归档/       # 项目归档管理
-├── Core/记忆/              # 记忆文件
+│       ├── 项目归档/       # 项目归档管理
+│       └── template/       # 技能模板
+├── Core/记忆/              # 记忆文件（用户数据，不上传）
 │   ├── user_scope.md       # 用户偏好、踩坑
 │   ├── project_scope.md    # 项目状态
 │   └── session-handoff.md  # 会话传递
@@ -46,7 +47,8 @@
 
 ## 快速开始
 
-1. 将 `.trae/` 文件夹复制到你的项目根目录
+### 方法一：手动复制
+1. 将本项目的 `.trae` 文件夹整体复制到你的项目根目录
 2. 打开 `.trae/rules/agent.md`，将 `<your-agent-name>` 替换为你的助手名字
 3. 在 Trae IDE 中开启新会话，你的专属 AI 助手即可上线
 
@@ -67,10 +69,8 @@
 ## 如何编写自定义 Skill
 
 1. 在 `.trae/skills/` 下创建新目录，如 `my-skill/`
-2. 创建 `SKILL.md` 文件，定义触发条件、职责和输出
+2. 创建 `SKILL.md` 文件（参考 template/SKILL_TEMPLATE.md）
 3. 在聊天框说 `/my-skill` 即可触发
-
-参考 `skills/template/SKILL_TEMPLATE.md`
 
 ## 进化里程碑
 

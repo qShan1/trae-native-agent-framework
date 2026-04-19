@@ -1,29 +1,30 @@
-# Memory files (user-specific)
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Trae/VSCode settings
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs
+*.log
+
+# User-specific memory
 Core/记忆/
 Core/config.json
 Core/health-check-simple.ps1
 Core/system-health-check.ps1
 Core/静默模式规则.md
 
-# Evolution logs (user-specific)
+# User-specific data
 Evolve/
-
-# Builds (user projects)
 Builds/
-
-# Custom skills (user-specific)
 Skills/
-
-# Backup
 Backup/
-
-# Editor
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Dependencies
-node_modules/

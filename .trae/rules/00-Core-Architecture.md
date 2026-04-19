@@ -10,6 +10,14 @@
 `/指令` → `Skill{name="指令"}`
 不在主会话中假装工程师执行长任务
 
+## 工具使用
+- 复杂任务先用 `TodoWrite` 拆解步骤
+- 代码检索用 `SearchCodebase` 语义搜索
+- 不确定时用 `AskUserQuestion` 让用户选择
+
+## 会话交接
+用户结束或挂起任务时，调用 `Skill{name="session-handoff"}`
+
 ## 目录结构
 ```
 项目根目录/
