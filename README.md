@@ -79,7 +79,7 @@ AI 助手将引导你完成：
 
 ### 添加自定义 Skill
 1. 在 `.trae/skills/` 创建新目录
-2. 创建 `SKILL.md`（参考 template/SKILL_TEMPLATE.md）
+2. 创建 `SKILL.md` 文件
 
 ## License
 
