@@ -1,0 +1,10 @@
+# 会话交接
+
+## 新会话开始
+1. 读取 Core/记忆/user_scope.md
+2. 读取 Core/记忆/project_scope.md
+3. 读取 Core/记忆/session-handoff.md
+4. 告知用户已加载记忆
+
+## 会话结束
+用户输入 /结束会话 时，调用 Skill{name="session-handoff"}
