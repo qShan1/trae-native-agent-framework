@@ -2,7 +2,7 @@
 
 > 专为 Trae IDE 打造的 AI 编程助手框架。基于本地结构化记忆、Coordinator 编排和 Skill 技能调度。
 
-[![Version](https://img.shields.io/badge/version-1.4.0-blue.svg)](https://github.com/qShan1/TraeCN-Framework)
+[![Version](https://img.shields.io/badge/version-1.4.1-blue.svg)](https://github.com/qShan1/TraeCN-Framework)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ## 这是什么
@@ -11,9 +11,9 @@
 
 ## 当前状态
 
-- **最新正式版**：`v1.4.0`
+- **最新正式版**：`v1.4.1`
 - **项目阶段**：核心闭环已补齐，进入可公开使用与维护的稳定阶段
-- **适合用途**：个人长期协作、团队规范试点、AI 助手工作流沉淀
+- **主要更新**: 引入 `视觉设计` 技能与 huashu-design 工作流，统一会话生命周期。
 
 ## 为什么值得看
 

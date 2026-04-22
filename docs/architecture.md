@@ -38,10 +38,11 @@ Rule 层回答的是“必须怎么做”。
 
 ### 3. Skill 层
 
-位于 `.trae/skills/`，负责专业任务执行。当前内置 6 个技能：
+位于 `.trae/skills/`，负责专业任务执行。当前内置 7 个技能：
 
 - `分析`
 - `设计`
+- `视觉设计` (集成 huashu-design 工作流)
 - `测试`
 - `部署`
 - `复盘`
@@ -53,9 +54,9 @@ Skill 层回答的是“具体怎么做”。
 
 位于 `Core/记忆/`，使用结构化 Markdown 表格存储本地记忆：
 
-- `user_scope.md`：用户偏好与长期工作习惯
+- `user_scope.md`：用户画像与长期工作习惯
 - `project_scope.md`：项目状态与阶段成果
-- `session-handoff.md`：会话交接与恢复
+- `session-handoff.md`：会话交接与恢复（区分轻量与标准结束）
 - `knowledge/`：错误、模式、决策沉淀
 
 Memory 层回答的是“已经发生了什么，之后如何继续”。
