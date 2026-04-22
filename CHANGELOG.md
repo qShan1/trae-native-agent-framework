@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## [v1.3.8] - 2026-04-22
+
+### Changed
+
+- Added a concise "30-second start" path to `README.md` so first-time users can begin with three steps.
+- Kept the detailed setup and command reference under the same section to preserve full onboarding context.
+
 ## [v1.3.7] - 2026-04-22
 
 ### Changed
