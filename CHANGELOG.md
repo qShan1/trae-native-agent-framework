@@ -1,0 +1,126 @@
+# Changelog
+
+All notable changes to this project are documented in this file.
+
+## [v1.3.1] - 2026-04-22
+
+### Added
+
+- Added `docs/README.md` as the public documentation index.
+- Added `docs/versioning.md` to define versioning, tagging and release flow.
+- Added repository-level `CHANGELOG.md` for version tracking.
+
+### Changed
+
+- Updated `README.md` to link architecture, versioning and changelog docs.
+- Clarified that public docs live under `docs/` while internal design notes stay under `.trae/documents/`.
+
+## [v1.3.0] - 2026-04-21
+
+### Added
+
+- Added Global Hooks with `pre-edit`, `post-build`, `on-error` and `pre-push` lifecycle hooks.
+- Added `.trae/config.md` as the system config center with master switches.
+
+### Changed
+
+- Improved Coordinator automation so preprocessing can run silently based on configuration.
+
+## [v1.2.0] - 2026-04-21
+
+### Added
+
+- Added built-in `skill-creator` capability for modeling complex flows into reusable skills.
+
+### Changed
+
+- Upgraded error handling to Root Cause Self-Healing.
+- Upgraded memory loading strategy with Associative Memory lookup.
+- Standardized skill frontmatter with versioned metadata.
+
+## [v1.1.0] - 2026-04-21
+
+### Added
+
+- Added Self-Healing Loop as a mandatory modify-diagnose-fix-verify flow.
+- Added Cascade Mode to proactively inspect linter and terminal errors.
+
+### Changed
+
+- Evolved the framework from reactive instruction handling to intent-aware coordination.
+- Refactored core rules to formalize proactive repair and sensing behavior.
+
+## [v1.0.9] - 2026-04-21
+
+### Added
+
+- Added `Modules/` as the reusable asset layer.
+- Added modern UI/UX guidance including Glassmorphism-oriented design language.
+
+### Changed
+
+- Improved Windows PowerShell command compatibility.
+- Adjusted output strategy for Windows terminal encoding constraints.
+
+## [v1.0.8] - 2026-04-21
+
+### Changed
+
+- Unified architecture language to Coordinator + Rules + Skills + Memory + Workspace.
+- Reclassified `/初始化`, `/重置` and `/结束` as Coordinator built-in commands.
+- Added `.trae/documents/` as the internal design-doc directory.
+
+## [v1.0.7] - 2026-04-20
+
+### Changed
+
+- Completed multi-round consistency audit across rules, skills and README.
+- Added execution declarations to all framework skills.
+- Improved session management with long-term memory persistence.
+
+## [v1.0.6] - 2026-04-20
+
+### Changed
+
+- Enforced the "trigger means execute" rule for skills.
+- Fixed the behavior where skills only described actions without performing them.
+
+## [v1.0.5] - 2026-04-20
+
+### Changed
+
+- Improved session handoff with long-term memory consolidation.
+- Ensured memory files continue to accumulate useful state instead of staying blank.
+
+## [v1.0.4] - 2026-04-20
+
+### Changed
+
+- Fixed broken file references and mismatched triggers.
+- Synced the framework structure to 7 rules and 10 skills at that stage.
+- Added missing knowledge directory creation and backfilled knowledge files.
+
+## [v1.0.3] - 2026-04-20
+
+### Added
+
+- Added `knowledge/` with `errors.md`, `patterns.md` and `decisions.md`.
+
+### Changed
+
+- Refactored rules from 8 files to 7 focused files.
+- Defined automatic-save triggers and error grading.
+- Removed empty and duplicate memory files.
+
+## [v1.0.2] - 2026-04-19
+
+### Changed
+
+- Completed broad consistency fixes across naming, file references and framework scope.
+
+## [v1.0.1] - 2026-04-19
+
+### Added
+
+- Initial public framework release.
+- Basic framework structure and core skills.

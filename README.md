@@ -2,8 +2,15 @@
 
 > 专为 Trae IDE 打造的 AI 编程助手框架。基于本地结构化记忆、Coordinator 编排和 Skill 技能调度。
 
-[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/qShan1/TraeCN-Framework)
+[![Version](https://img.shields.io/badge/version-1.3.1-blue.svg)](https://github.com/qShan1/TraeCN-Framework)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+## 文档导航
+
+- [文档总览](file:///e:/Agent/小Trae/docs/README.md)
+- [公开架构说明](file:///e:/Agent/小Trae/docs/architecture.md)
+- [版本管理说明](file:///e:/Agent/小Trae/docs/versioning.md)
+- [更新日志](file:///e:/Agent/小Trae/CHANGELOG.md)
 
 ## 核心理念
 
@@ -129,6 +136,12 @@ AI 助手将引导你完成：
 | `06-输出规范.md` | 代码风格、对话风格 |
 
 ## 更新日志
+
+### v1.3.1 (2026-04-22)
+
+- ✅ **文档入口整理**：新增 `docs/README.md`，统一公开文档导航入口。
+- ✅ **版本管理落地**：新增 `CHANGELOG.md` 与 `docs/versioning.md`，明确语义化版本、标签和发布流程。
+- ✅ **公开仓库友好化**：将架构说明、更新记录和版本策略分离，避免用户误以为新推送会覆盖旧版本历史。
 
 ### v1.3.0 (2026-04-21)
 
