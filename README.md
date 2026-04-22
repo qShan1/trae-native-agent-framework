@@ -220,8 +220,8 @@ AI 助手将引导你完成：
 ### 添加自定义 Skill
 
 1. 在 `Skills/` 目录创建新文件夹（如 `Skills/我的技能/`）
-2. 参考 [SKILL_TEMPLATE.md](file:///e:/Agent/小Trae/Skills/SKILL_TEMPLATE.md) 创建 `SKILL.md` 文件。
-3. 也可以参考已有的示例技能：[文档优化](file:///e:/Agent/小Trae/Skills/文档优化/SKILL.md)。
+2. 参考 [SKILL_TEMPLATE.md](file:///e:/Agent/小Trae/.trae/documents/SKILL_TEMPLATE.md) 创建 `SKILL.md` 文件。
+3. 也可以参考内置技能示例：[设计](file:///e:/Agent/小Trae/.trae/skills/设计/SKILL.md)。
 
 ### 技能执行规范
 
