@@ -88,3 +88,46 @@
 - `Highlights` 只保留 3 条左右，方便仓库访客快速扫读
 - `Changes` 与 `CHANGELOG.md` 保持同一口径，但可以更偏对外表达
 - 如果是长期治理类版本，明确说明它解决了什么维护成本问题
+
+## v1.4.0 建议文案
+
+```md
+## Overview
+
+This release turns TraeCN-Framework from a "documented framework" into a "closed-loop and deliverable workflow framework".
+
+## Highlights
+
+- Added a shared closed-loop execution contract for built-in commands, skills and hooks
+- Productized lifecycle commands like `/初始化`, `/重置` and `/结束` with verification and recovery paths
+- Aligned rules, docs, skill templates and release governance around execution depth instead of surface expansion
+
+## Changes
+
+### Added
+
+- Added `闭环执行矩阵.md` as the shared execution contract
+- Added `生命周期指令手册.md` for repeatable lifecycle operations
+
+### Changed
+
+- Updated built-in skills to include concrete execution steps, validation actions and persistence outputs
+- Updated README and public docs to better explain the project for open-source visitors
+- Updated templates and release docs so future skills and versions inherit the same delivery standard
+
+## Impact
+
+- 是否影响公开入口：是
+- 是否影响协作流程：是
+- 是否需要迁移操作：否
+
+## Upgrade Notes
+
+- 无特殊升级步骤
+- 建议从 `README.md` 和 `docs/README.md` 重新了解当前版本的使用入口与治理结构
+
+## Verification
+
+- Reviewed repository docs and release files for v1.4.0 consistency
+- Ran diagnostics on the updated markdown files and confirmed no newly introduced issues
+```

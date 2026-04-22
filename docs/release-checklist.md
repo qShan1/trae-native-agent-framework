@@ -11,6 +11,7 @@
 - 确认 `CHANGELOG.md` 已记录本次版本内容
 - 确认版本号符合语义化规则
 - 确认不包含本机私有配置、备份或实验文件
+- 确认本次能力不是“只有触发词”，而是具备验收、验证与沉淀闭环
 
 ## 提交与打标
 
@@ -39,5 +40,8 @@ git push origin v1.3.3
 ## 发版后
 
 - 检查 GitHub `Tags` 和 `Releases` 页面是否可见
+- 用 `git ls-remote --heads origin main` 确认远端主分支已更新到目标提交
+- 用 `git ls-remote --tags origin vX.Y.Z` 确认目标 tag 已存在于远端
 - 抽查 README 中的版本徽章和链接是否正确
+- 如果 `git status` 仍显示 `ahead`，但 `ls-remote` 校验通过，按本地 tracking 噪音处理，不据此回滚或重复发版
 - 如果这次改动会影响后续协作，补充更新 `CONTRIBUTING.md`

@@ -2,6 +2,24 @@
 
 All notable changes to this project are documented in this file.
 
+## [Unreleased]
+
+## [v1.4.0] - 2026-04-22
+
+### Added
+
+- Added `.trae/documents/闭环执行矩阵.md` to define a shared execution contract for built-in commands, skills and hooks.
+- Added `.trae/documents/生命周期指令手册.md` to turn `/初始化`, `/重置` and `/结束` into documented, repeatable lifecycle flows.
+
+### Changed
+
+- Reworked the framework direction around lifecycle closure, validation and rollback instead of expanding optional asset or template layers.
+- Updated `README.md` and `docs/README.md` so the repository homepage better explains what the project is, who it helps and why the workflow matters.
+- Updated `docs/architecture.md`, `docs/versioning.md` and `docs/release-checklist.md` to align public governance with the new release boundary.
+- Expanded built-in skill documents so `分析`、`设计`、`测试`、`部署`、`复盘` and `项目归档` now include concrete steps, output requirements and acceptance criteria.
+- Updated `SKILL_TEMPLATE.md` and `skill-creator` so future custom skills inherit the same closed-loop execution contract by default.
+- Updated core rules to require a consistent delivery format, lifecycle acceptance checks and post-action persistence mapping.
+
 ## [v1.3.8] - 2026-04-22
 
 ### Changed
