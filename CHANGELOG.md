@@ -2,6 +2,18 @@
 
 All notable changes to this project are documented in this file.
 
+## [v1.3.3] - 2026-04-22
+
+### Added
+
+- Added `CONTRIBUTING.md` to document contribution flow, root-level boundaries and commit expectations.
+- Added `docs/release-checklist.md` to standardize release preparation, tag creation and release notes.
+- Added `.github/PULL_REQUEST_TEMPLATE.md` to keep pull requests consistent and reviewable.
+
+### Changed
+
+- Updated `README.md`, `docs/README.md` and `docs/versioning.md` to expose governance and release workflow entry points.
+
 ## [v1.3.2] - 2026-04-22
 
 ### Changed

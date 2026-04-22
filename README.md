@@ -2,7 +2,7 @@
 
 > 专为 Trae IDE 打造的 AI 编程助手框架。基于本地结构化记忆、Coordinator 编排和 Skill 技能调度。
 
-[![Version](https://img.shields.io/badge/version-1.3.2-blue.svg)](https://github.com/qShan1/TraeCN-Framework)
+[![Version](https://img.shields.io/badge/version-1.3.3-blue.svg)](https://github.com/qShan1/TraeCN-Framework)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ## 文档导航
@@ -10,6 +10,8 @@
 - [文档总览](file:///e:/Agent/小Trae/docs/README.md)
 - [公开架构说明](file:///e:/Agent/小Trae/docs/architecture.md)
 - [版本管理说明](file:///e:/Agent/小Trae/docs/versioning.md)
+- [发布检查清单](file:///e:/Agent/小Trae/docs/release-checklist.md)
+- [贡献指南](file:///e:/Agent/小Trae/CONTRIBUTING.md)
 - [更新日志](file:///e:/Agent/小Trae/CHANGELOG.md)
 
 ## 核心理念
@@ -149,6 +151,12 @@ AI 助手将引导你完成：
 | `06-输出规范.md` | 代码风格、对话风格 |
 
 ## 更新日志
+
+### v1.3.3 (2026-04-22)
+
+- ✅ **长期治理补齐**：新增 `CONTRIBUTING.md`，明确目录边界、提交规范和协作流程。
+- ✅ **发布流程固化**：新增 `docs/release-checklist.md`，把发版前检查、打 tag、发布说明收成固定清单。
+- ✅ **协作模板化**：新增 `.github/PULL_REQUEST_TEMPLATE.md`，降低未来协作时的描述偏差和漏项。
 
 ### v1.3.2 (2026-04-22)
 
